@@ -143,3 +143,10 @@ label #sidebar-btn:hover {
 label {
     margin: 5px 5px;
 }
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
