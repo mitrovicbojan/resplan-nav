@@ -99,7 +99,7 @@ label #sidebar-btn {
 label #sidebar-btn:hover {
     color: #7291D7;
 }
-input {
+.checkbox-btn {
     display: none;
 }
 #check:checked ~ .sidebar {
@@ -118,13 +118,28 @@ input {
 
 .content {
     margin-left: 250px;
-    background: url(./img/boat-background.jpg) no-repeat;
+    /*background: url(./img/boat-background.jpg) no-repeat;
     background-position: center;
-    background-size: cover;
-    height: 100vh;
+    background-size: cover;*/
+    height: 10vh;
     transition: 0.5s;
 }
 
 #check:checked ~ .content {
     margin-left: 60px;
+}
+
+/* ----- inputs ------ */
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 50px;
+    flex-direction: column;
+}
+
+label {
+    margin: 5px 5px;
 }
