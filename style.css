@@ -150,3 +150,10 @@ label {
     align-items: center;
 
 }
+
+/* plan */ 
+
+.cabin-cat {
+    border: 2px solid red;
+    margin: 10px 10px;
+}
