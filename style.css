@@ -156,4 +156,12 @@ label {
 .cabin-cat {
     border: 2px solid red;
     margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cabin-prev img{
+    width: 350px;
+    height: 150px;
 }
